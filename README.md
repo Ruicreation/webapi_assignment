@@ -1,12 +1,13 @@
 # Assignment 1
+A simple Node.js travel booking application that allows users to search flights, calculate ticket costs and baggage fees.
 
-You will only need one file, ie, your node module, for this assignment.
-
-In this readme file, describe how to use your node module. It could be similar to **app.js** from Lab2, where you call some functions in your node module and display the output. Describe how to setup your node module, if any. Describe how to call the functions, what parameters required and so on.
-
-You can press **Ctrl+Shift+V** in this file in Visual Studio Code to see a live preview of the readme file.
-
-For some tips in formatting text in readme file, refer to https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-
+# Features
+1. Search for flights between departure and destination cities
+2. View available flights with flight ID, departure, destination, and base price.
+3. Book a flight by selecting the flight ID and inputting the number of tickets.
+4. Apply promo codes for discounts if necessary.
+5. Convert ticket prices into different currencies (SGD, USD, JPY, EUR).
+6. Calculate baggage fees.
+   
 # References
-Provide the references that you have used to support your assignment. 
+Trip.com website https://sg.trip.com/?locale=en-sg
