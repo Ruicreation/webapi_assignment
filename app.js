@@ -1,5 +1,5 @@
 const readline = require('readline');
-const travel = require('./travelBooking');
+const travel = require('./LeeRuiYang_TravelBookingApp');
 
 console.log("Welcome to the Travel Booking\n");
 
@@ -98,5 +98,6 @@ async function startBooking() {
         rl.close();
     }
 }
+
 
 startBooking(); // Calls the startBooking async function
